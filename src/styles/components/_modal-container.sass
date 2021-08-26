@@ -1,0 +1,23 @@
+.modal
+    display: flex;
+    align-items: center;
+
+.modal-container
+    text-align: center;
+    color: $off-white;
+    border: 1px solid $off-white; 
+    width: 50%;
+    margin: $s-size auto;
+    padding: $l-size;
+    background-color: $off-black;
+
+    p
+        word-break: break-all;
+
+    h3
+        margin-top: 0;
+
+
+@media (min-width: $desktop-breakpoint)
+    .modal-container
+        width: 30%;
